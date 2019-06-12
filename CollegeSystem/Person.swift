@@ -14,7 +14,8 @@ enum Gender {
 
 class Person{
     
-    /*var id: Int
+    /*private var _id: Int
+     var id: Int
     {
         get{
             return self.id
