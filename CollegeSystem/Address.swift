@@ -8,10 +8,20 @@
 
 import Foundation
 
-struct Address {
+struct Address: Display {
+    
     var suiteNumber: Int
     var streetName: String
     var city: String
     var postalCode: String
     var country: String
+    
+    mutating func setCity(city: String) {
+        self.city = city
+    }
+    
+    func display() {
+        print("Address: ",suiteNumber,streetName,city)
+        print("Postal Code: ",postalCode)
+    }
 }

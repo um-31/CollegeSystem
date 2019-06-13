@@ -7,7 +7,7 @@
 //
 
 import Foundation
+
 protocol Display{
-    var dummy: Int { get }
     func display()
 }
