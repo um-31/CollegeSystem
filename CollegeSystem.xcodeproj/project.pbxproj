@@ -12,6 +12,7 @@
 		FB0258F022B1B58100BCC030 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0258EF22B1B58100BCC030 /* Student.swift */; };
 		FB0258F222B301FB00BCC030 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0258F122B301FB00BCC030 /* Display.swift */; };
 		FB0258F522B302F100BCC030 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0258F422B302F100BCC030 /* Address.swift */; };
+		FB0258F922B3111E00BCC030 /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0258F822B3111E00BCC030 /* Employees.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		FB0258EF22B1B58100BCC030 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		FB0258F122B301FB00BCC030 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 		FB0258F422B302F100BCC030 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		FB0258F822B3111E00BCC030 /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +67,11 @@
 		FB0258E522B1B19200BCC030 /* CollegeSystem */ = {
 			isa = PBXGroup;
 			children = (
+				FB0258F722B310D100BCC030 /* Faculty */,
+				FB0258F622B310BC00BCC030 /* Students */,
 				FB0258F322B3026600BCC030 /* Protocols */,
 				FB0258E622B1B19200BCC030 /* main.swift */,
 				FB0258ED22B1B23C00BCC030 /* Person.swift */,
-				FB0258EF22B1B58100BCC030 /* Student.swift */,
 				FB0258F422B302F100BCC030 /* Address.swift */,
 			);
 			path = CollegeSystem;
@@ -80,6 +83,22 @@
 				FB0258F122B301FB00BCC030 /* Display.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FB0258F622B310BC00BCC030 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				FB0258EF22B1B58100BCC030 /* Student.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		FB0258F722B310D100BCC030 /* Faculty */ = {
+			isa = PBXGroup;
+			children = (
+				FB0258F822B3111E00BCC030 /* Employees.swift */,
+			);
+			path = Faculty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB0258EE22B1B23C00BCC030 /* Person.swift in Sources */,
+				FB0258F922B3111E00BCC030 /* Employees.swift in Sources */,
 				FB0258F022B1B58100BCC030 /* Student.swift in Sources */,
 				FB0258F222B301FB00BCC030 /* Display.swift in Sources */,
 				FB0258E722B1B19200BCC030 /* main.swift in Sources */,
