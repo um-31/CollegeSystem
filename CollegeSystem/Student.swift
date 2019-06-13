@@ -28,4 +28,8 @@ class Student: Person {
         //self.percentage = Float()
         self.result = String()
     }
+    
+    override func display() {
+        
+    }
 }
