@@ -23,5 +23,6 @@ struct Address: Display {
     func display() {
         print("Address: ",suiteNumber,streetName,city)
         print("Postal Code: ",postalCode)
+        print("Country: ",country)
     }
 }

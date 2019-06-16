@@ -48,6 +48,6 @@ class Person: Display {
         self.dummy = Int()
     }
     func display() {
-        //print(dummy)
+        
     }
 }

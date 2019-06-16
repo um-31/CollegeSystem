@@ -10,6 +10,7 @@ import Foundation
 
 class Student: Person {
     var marks: Dictionary<String, Float>
+    var sexDef: String?
     var total: Float{
         var sum: Float = 0.0
         for (_, v) in marks{
@@ -27,9 +28,25 @@ class Student: Person {
         //self.total = Float()
         //self.percentage = Float()
         self.result = String()
+        self.sexDef = String()
     }
     
+    
+    
     override func display() {
-        
+        print(fullName)
+        if sexDef == "M"{
+            print(Gender.Male)
+        }else if sexDef == "F"{
+            print(Gender.Female)
+        }else{
+            print(Gender.Other)
+        }
+        print(address!.display())
+        for (k,v) in marks{
+            print("\(k): ",v)
+        }
+        print(percentage)
+        print(total)
     }
 }

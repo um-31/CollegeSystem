@@ -12,7 +12,7 @@ class Employee: Person {
     var emailEmployee: String?
     var designation: String?
     var salary: Int{
-        var pay: Int = 0
+        var pay: Int?
         if(designation == ("Teacher")){
             pay = 1000
         }
@@ -22,15 +22,13 @@ class Employee: Person {
         else if designation == "Librarian"{
             pay = 800
         }
-        return pay
+        return pay!
+
     }
     var symbol: String = "$"
     override init() {
         self.emailEmployee = String()
         self.designation = String()
         //self.salary = Int()
-    }
-    override func display() {
-        
     }
 }
